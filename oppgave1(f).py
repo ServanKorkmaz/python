@@ -1,7 +1,7 @@
 
 # a)
 def s(t):
-    return t**3 - 6*t**2 + 9*t + 1
+    return t**3 - 6*t**2 + 9*t + 1      # returnerer funksjonen
 print(s(0))
 print(s(1))
 print(s(2))
@@ -32,5 +32,8 @@ def gjennomsnittshastighet(t0,t1):
 
 print(gjennomsnittshastighet(0,2))
 print(gjennomsnittshastighet(2,3))
+
+# f)
+
 
 
