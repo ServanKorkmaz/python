@@ -19,4 +19,18 @@ def fart_til_tiden(t0,t1):
 print(fart_til_tiden(0,1))
 print(fart_til_tiden(1,2))
 
+# d)
+def h(t):
+    return -2*t**2 + 8*t + 3
+print(h(0))
+print(h(2))
+
+
+# e)
+def gjennomsnittshastighet(t0,t1):
+    return (h(t1) - h(t0)) / (t1 - t0)
+
+print(gjennomsnittshastighet(0,2))
+print(gjennomsnittshastighet(2,3))
+
 
