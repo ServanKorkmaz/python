@@ -42,3 +42,35 @@ plt.plot(x, f_deriv, label="f'(x) numerisk")
 plt.legend()
 plt.grid(True)
 plt.show()
+
+
+# derivasjon av polynomer
+def f(x):
+    return x**5 - 4*x**3 + 2*x - 7
+
+h = 0.001
+x = np.linspace(-3, 3, 601)
+
+def f_deriv(x):
+    return 5*x**4 - 12*x**2 + 2
+
+# Numerisk derivert (sentraldifferanse)
+f_deriv_numerisk = (f(x + h) - f(x - h)) / (2*h)
+
+# Plotting
+plt.plot(x, f(x), label="f(x)")
+plt.plot(x, f_deriv(x), label="f'(x) analytisk", linestyle="--")
+plt.plot(x, f_deriv_numerisk, label="f'(x) numerisk")
+
+plt.legend()
+plt.grid(True)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.title("Derivasjon av polynomer")
+plt.show()
+
+
+
+
+
+
