@@ -48,15 +48,26 @@ def dobbelt_areal(lengde, bredde):
 #print(rek_areal(5, 3))
 #print(dobbelt_areal(5, 3))
 
-
+# beregne bmi
 
 def beregn_bmi(vekt, hoyde):
     hoyde = hoyde / 100
     bmi = vekt / hoyde**2
     return bmi
-print(beregn_bmi(70,175))
-print(beregn_bmi(85, 180))
+#print(beregn_bmi(70,175))
+#print(beregn_bmi(85, 180))
 
+
+# tidskonvertering
+def sekunder_til_tid(sekunder):
+    timer = sekunder // 3600        # hvor mange hele timer
+    rest = sekunder % 3600          # sekunder som er igjen
+    minutter = rest // 60           # hvor mange hele minutter
+    sek = rest % 60
+
+    return f"{timer} timer, {minutter} minutter, sekunder {sek}"
+print(sekunder_til_tid(3662))
+print(sekunder_til_tid(7384))
 
 
 
