@@ -27,3 +27,18 @@ plt.plot(x, f_deriv, label="f'(x) numerisk")        # tegner en graf/plot
 plt.legend()
 plt.grid(True)     # True = rutenett på, False = rutenett av
 plt.show()
+
+
+# bakoverdifferanse
+def f(x):
+    return np.log(x + 1)
+
+h = 0.05
+x = np.linspace(0, 4)
+
+f_deriv = (f(x) - f(x -h)) / h
+
+plt.plot(x, f_deriv, label="f'(x) numerisk")
+plt.legend()
+plt.grid(True)
+plt.show()
