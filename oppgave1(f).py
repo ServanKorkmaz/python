@@ -30,10 +30,13 @@ print(h(2))
 def gjennomsnittshastighet(t0,t1):
     return (h(t1) - h(t0)) / (t1 - t0)
 
-print(gjennomsnittshastighet(0,2))
+print(gjennomsnittshastighet(0,2))      # (0,2) = t0 and t1
 print(gjennomsnittshastighet(2,3))
 
-# f)
+# f) Temperatur konvertering
+celsius_til_fahrenheit(c) 
+return (9/5) * c + 32
+
 
 
 

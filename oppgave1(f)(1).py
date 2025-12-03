@@ -8,3 +8,4 @@ def fart_til_tiden(t1,t0):
 
 print("Gjennomsnittsfarten er: ", fart_til_tiden(0,1))
 print("Gjennomsnittsfarten er: ", fart_til_tiden(1,2))
+
