@@ -19,9 +19,10 @@ def f(start, endring, stopp):
     while x > stopp:
         x += endring
     return x
-# print(f(5, 2, 6))
-print(f(6, 1, 4))
-
-
+# print(f(5, 2, 6))     # printer 5
+# print(f(6, 1, 4))     # kjører i all evighet
+# print(f(4, 2, 5))     # printer 4
+# print(f(3, 1, 5))     # printer 3
+print(f(3, 2, 5))     # printer 3
 
     
