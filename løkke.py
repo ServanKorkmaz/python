@@ -9,4 +9,4 @@ def f(x, a, b):
 # print(f([2,1,1,0,0], 1, 5))      # printer 2 --------//--------
 # print(f([1, 1, 0, 0, 2], 1, 4))  # printer 1 -> plusser sammen indeks 1, 2 og 3
 # print(f([1, 0, 1, 2, 0], 1, 3))  # printer 1 -> plusser sammen indeks 1 og 2
-print(f([1, 2, 0, 0, 1], 2, 3))
+# print(f([1, 2, 0, 0, 1], 2, 3))  # printer 0 -> plusser sammen indeks 2

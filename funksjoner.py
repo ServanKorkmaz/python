@@ -23,6 +23,6 @@ def f(start, endring, stopp):
 # print(f(6, 1, 4))     # kjører i all evighet
 # print(f(4, 2, 5))     # printer 4
 # print(f(3, 1, 5))     # printer 3
-print(f(3, 2, 5))     # printer 3
+# print(f(3, 2, 5))     # printer 3
 
     
