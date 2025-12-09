@@ -11,7 +11,7 @@ def p(t):
 t = np.linspace(0, 5, 101)
 
 # numerisk derivasjon med sentral differanse
-dpdt = p(t)(p, t, h, metode="senter")
+dpdt = numerisk_derivasjon(p, t, h, metode="senter")
 
 # plott begge kurver
 plt.plot(t, p(t), label="p(t)")

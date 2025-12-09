@@ -33,7 +33,7 @@ def weird(a, b, c):
 # print(weird(10, 5, 0))
 # print(weird(1, 2, 5))
 # print(weird(-1, 0, 3))
-print(weird(0, -2, -6))
+# print(weird(0, -2, -6))
 
 
 
